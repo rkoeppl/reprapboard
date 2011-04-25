@@ -1,0 +1,77 @@
+
+Requirements:
+- same pinout as currently used ones
+- heatsink'able
+- more available than currently used ones
+- better potentiometer needed (just insulated)
+- same voltage range as current ones for the controller pins (3-5,5V)
+- FUSE
+- additional led signaling that we still have power (after fuse)
+
+TODO:
+- need to check what happens if we loose main voltage because of fuse breaking
+  and still have powered other side (logic one)
+
+
+Candidate devices
+
+Symbol		Manufacturer		Prices in EUR (with breaks)	Supplier
+-----------------------------------------------------------------------------------
+BD6385EVF-E2    ROHM                    1+ 2,90                         Farnell (at)
+        + cheap
+        - only 1,2A
+	- only 1/4 microstepping
+
+BD6389FM-E2     ROHM                    1+@9,33, 10+@7,53, 100+@5,94    Farnell (at)
+        + 1,9A
+        - expensive
+DRV8811         Texas Instruments       1+@5,48, 10+@4,38, 100@3,98     Farnell (at)
+        + 2,5A				1+@4,32.2000+@1,91		Digikey (at)
+        + proven to work with NEMA17 and NEMA23
+        - 1/8 microstepping 
+DRV8824PWP	Texas Instruments	1+@5.87, 10+@4.41, 100+@3.57	Farnell (at)
+	+ 1/32 microstepping		1+@4,37				Digikey (at)
+	- 1.6A limit (24V, 25C), 8-45V, Tj = 150, Rtj = 65-28
+	- package HTSSOP28, almost as difficult as QFN to solder.
+	= logic levels: 3.3V/5V
+
+DRV8825         Texas Instruments       ???                             ???
+        + 1/32 microstepping
+        + 2,5A limit
+        - vendor needed
+
+A4983           Allegro                 1+@4,83 25+@3,87 100+@3,01	farnell (at)
+	= 1/16 microstepping		1+@3,98 25+@3,07 100+@2,72 1500+@1,54 digikey (at)
+	= 2A, 35V, Rjt = 32C/W, Tj = 150C
+        + original part used by pololu  
+        - gets very hot
+        - short in supply
+        - high price for low numbers
+	- package QFN difficult to solder package (need hotplate or tricks)
+
+
+
+-----------------------------------------------------------------------------------
+part type	key parameter	package	qty/board	description
+
+-----------------------------------------------------------------------------------
+Resistor	0.22ohm 	0603	2		resistors used for current sensing
+	farnell (at) 5+@0.113 50+@0.084 100+@0.074
+Fuse		5A (?)		0603	1		optional so far, can be substituted with 0 ohm resistor
+	farnell () 10+@0.398, 50+@0.332 (farnel pn: 184-3800)
+Trimpot		2k2		pth	1		price varies 
+	farnell (at) 5+@0.2-0.31, 25+@0.175-0.257, 50+@0.151-0.216
+
+-----------------------------------------------------------------------------------
+
+Fuse in 0603 package requires soldering to replace, not very easy, small fuses with smd
+holders will be quite expensive. 
+
+
+
+board size:15,24x20,32mm 0,6x0,8 inch	10+@9,36 100+@1,59 1000+@0,36	PCB-pool (at)
+double sided board
+number of pins:16 (2x8)
+board pinout: as seen on http://www.pololu.com/catalog/product/1201
+left: Enable, MS1,MS2,MS3,Reset,Sleep,Step,Dir
+right: Vmot,Gnd,2B,2A,1A,1B,VDD,GND
