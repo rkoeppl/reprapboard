@@ -11,8 +11,13 @@ Requirements:
 TODO:
 - need to check what happens if we loose main voltage because of fuse breaking
   and still have powered other side (logic one)
-
-
+- qualify the value/rating of current sense resistor for the DRV8825.
+- design for the package of the DRV8825 current sense resistor.
+- order samples of the DRV8824 from TI. 
+- new Eagle layout.
+- peer review new eagle layout. 
+- qualify design.  
+- test alpha. 
 Candidate devices
 
 Symbol		Manufacturer		Prices in EUR (with breaks)	Supplier
