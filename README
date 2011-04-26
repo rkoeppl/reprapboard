@@ -1,4 +1,6 @@
+
 This is a design for a single board electronics solution for Reprap mendel and similar devices.
-This work is licensed under GNU General Public License Version 2 (GPL v2),
-see http://www.gnu.org/licenses/gpl-2.0.html for details about this license.
-You find a copy of this license in this repository.
+Software license supporting this work is licensed under GNU General Public License Version 2 (GPL v2),
+Hardware license is released under TAPR Open Hardware License. 
+see http://www.gnu.org/licenses/gpl-2.0.html, http://www.tapr.org/ohl.html for details regarding both license.
+You find a copy of both license in the folder /license of this repository.
