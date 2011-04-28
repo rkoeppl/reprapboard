@@ -9,7 +9,16 @@ Requirements:
 - additional led signaling that we still have power (after fuse)
 
 TODO:
-- need to check what happens if we loose main voltage because of fuse breaking
+- Build calculator to qualify values, requirements.
+- Build Eagle library parts. 
+	- DRV882X refer to datasheet/drv8824.pdf and ../appnotes/sima00Xb.pdf
+	- Silks vs Photo imageable 
+		- 5-6 mills for Silks (5 Mills is pushing it)
+		- 4Mill lines without an issue (small characters.)   
+- Author Schematic
+- Design Layout
+	- Mouse Bites, v-score (active score) route (might be tough on the 	Vacuums  
+- Need to check what happens if we loose main voltage because of fuse breaking
   and still have powered other side (logic one)
 - qualify the value/rating of current sense resistor for the DRV8825. //Calculated for 256mW added overhead then selected 0.5W
 - design for the package of the DRV8825 current sense resistor.
