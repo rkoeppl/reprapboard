@@ -1,20 +1,31 @@
-
 Requirements:
 - same pinout as currently used ones
-- heatsink'able
+- heat-sink'able
 - more available than currently used ones
 - better potentiometer needed (just insulated)
 - same voltage range as current ones for the controller pins (3-5,5V)
 - FUSE
 - additional led signaling that we still have power (after fuse)
-
+#
+#
+# Deign Notes:
+- DRV882X Lib part
+	- Design for JEDEC MO-153
+	- Observe Guidelines for TI AN slma00XX.pdf
+	- Design for 1.6A Itrip = Vref/(5*Sense) = 3.2v/(5*0.4)
+		-Best Practice observe Irms 1.13A @ 0.4Ω=0.512W select 1w for Isense
+		- Cost for 2 x 1206 or 4 x 0805 vs 1 x 1W 2512. 
+- Layout
+	- 50 mils off pins 
+	- 80 mils on PVDD_X 
+	- 60 mils on OUT_X.
 TODO:
 - Build calculator to qualify values, requirements.
 - Build Eagle library parts. 
 	- DRV882X refer to datasheet/drv8824.pdf and ../appnotes/sima00Xb.pdf
 	- Silks vs Photo imageable 
 		- 5-6 mills for Silks (5 Mills is pushing it)
-		- 4Mill lines without an issue (small characters.)   
+		- 4Mill lines without an issue (small characters.PI only)   
 - Author Schematic
 - Design Layout
 	- Mouse Bites, v-score (active score) route (might be tough on the 	Vacuums  
