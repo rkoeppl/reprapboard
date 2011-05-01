@@ -1,0 +1,61 @@
+Reprapboard OVERVIEW
+
+Table of contens
+Reprapboard OVERVIEW	1
+
+
+Design goals for reprapboard
+
+Main goals:
+	Stable solution
+	affordable components
+	includes all needed components to fully controll a reprap printer
+	support for heated bed controll
+	support for heated chamber control
+	support for two extruders
+	support for voltages up to at least 24V
+	resettable fuses for main components, replaceable fuses for high power components
+	support for thermistor and thermocouple for the two extruders
+	native USB support
+	1/16 microstepping or better for X,Y,Z
+	1/8 microstepping or better for extruders
+	complete documentation
+	compatibillity with mainstram firmware where possible
+	Distinct power paths for stepperdrivers, heater mosfets, logic components
+	components readily available
+	Two layer PCB
+	I2C
+	RS485
+	sd-card reader
+	display
+	keypad
+Optional goals:
+	microstepping can be changed in firmware
+Components
+This section lists hardware candidates for the BOM and their upsides/downsides
+MCU
+Atmel AT90USB1286 
++includes USB Support
+Stepper drivers for X,Y,Z
+
+TI DRV8824
++1/32 microstepping
+-1,6A max
+TI DRV8825
++1/32 microstepping
++2,5A
++pin compatible with drv8824
+-not yet available
+-more expensive
+Stepper Drivers for E0 E1
+TI DRV8811
++2,5A
+-1/8 microstepping only
+TI DRV8824
++1/32 microstepping
+-1,6A max
+TI DRV8825
++1/32 microstepping
++pin compatible with drv8824
+-not yet available
+-more expensive
