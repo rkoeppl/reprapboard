@@ -20,23 +20,22 @@ Requirements:
 	- 80 mils on PVDD_X 
 	- 60 mils on OUT_X.
 TODO:
-- Build calculator to qualify values, requirements.
 - Build Eagle library parts. 
-	- DRV882X refer to datasheet/drv8824.pdf and ../appnotes/sima00Xb.pdf
 	- Silks vs Photo imageable 
 		- 5-6 mills for Silks (5 Mills is pushing it)
 		- 4Mill lines without an issue (small characters.PI only)   
-- Author Schematic
 - Design Layout
 	- Mouse Bites, v-score (active score) route (might be tough on the 	Vacuums  
 - Need to check what happens if we loose main voltage because of fuse breaking
   and still have powered other side (logic one)
+- look imto the use of external Schottky diodes with low-vF to clamp Vbb to ground. This may help reduce power dissapation. 
 - qualify the value/rating of current sense resistor for the DRV8825. //Calculated for 256mW added overhead then selected 0.5W
+- Set mix decay mode for the Sin position of the stepper curent Slow - 90deg fast to 180deg slow to 270deg fast to 360deg°
 - design for the package of the DRV8825 current sense resistor.
-- order samples of the DRV8824 from TI. 
+- order samples of the DRV8824 from TI. [Back ordered from manufacture]
 - new Eagle layout.
 - peer review new eagle layout. 
-- source heat sink //possibly machine preexisting (12V*1.6A=19.2W)  
+- source heat sink //possibly machine preexisting 
 - qualify design.  
 - test alpha. 
 Candidate devices
