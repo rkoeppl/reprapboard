@@ -1,0 +1,14 @@
+v 20091004 2
+B 300 300 1500 600 3 10 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1050 600 3 8 1 1 0 4 1
+DRV8825
+T 0 0 0 1 0 0 0 0 1
+device=DRV8825
+T 1850 950 5 8 1 1 0 0 1
+refdes=U?
+T 0 0 0 1 0 0 0 0 1
+footprint=HTSSOP-28
+T 0 0 0 1 0 0 0 0 1
+description=DRV8825 TI Microstepping Stepper Motor Driver
+T 0 0 0 1 0 0 0 0 1
+numslots=0
