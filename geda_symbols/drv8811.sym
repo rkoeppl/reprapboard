@@ -1,0 +1,42 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Symbol: drv8811.sym</title>
+<link rel="stylesheet" href="/gedasymbols.css" type="text/css">
+</head>
+<body>
+<h1 align=center>Symbol: drv8811.sym</h1>
+
+<p>
+File size: 4.8 Kb <br>
+File date: Tue Apr 19 07:07:38 2011 <br>
+<a href="drv8811.sym?dl">Download</a> </p>
+
+<p>
+documentation: <a href="http://focus.ti.com/lit/ds/symlink/drv8811.pdf">http://focus.ti.com/lit/ds/symlink/drv8811.pdf</a>
+<br>
+description: Stepper motor controller ic
+<br>
+author: Mitja Jež &lt;mitja.jez@zeitgeist.si&gt;
+<br>
+</p>
+
+
+<p>
+<img src="drv8811.sym?png">
+</p>
+<p><br></p>
+<p><hr noshade size=1></p>
+
+<small>
+
+<p align=center>
+
+Copyright 2011, all rights reserved unless specified otherwise.
+<br>
+<a href="/">gedasymbols.org</a> is maintained by
+<a href="/user/dj_delorie/">DJ Delorie</a></p>
+
+</small>
+
+</body>
+</html>

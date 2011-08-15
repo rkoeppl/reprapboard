@@ -1,0 +1,45 @@
+# PL = 1.60mm
+# PB =  0.30mm //pad 
+# Round corner 10%
+# Pitch = 0.65 
+# 6.1mm/2 = 3.05mm ± pad L/R center  
+#  
+# 
+Pad 1,  4.225, -3.05mm;
+Pad 2,  3.575, -3.05mm;
+Pad 3,  2.925, -3.05mm;
+Pad 4,  2.275, -3.05mm;
+Pad 5,  1.625, -3.05mm;
+Pad 6,  0.975, -3.05mm;
+Pad 7,  0.325, -3.05mm;
+Pad 8, -0.325, -3.05mm;
+Pad 9, -0.975, -3.05mm;
+Pad 10, -1.625, -3.05mm;
+Pad 11, -2.275, -3.05mm;
+Pad 12, -2.925, -3.05mm;
+Pad 13, -3.575, -3.05mm;
+Pad 14, -4.225, -3.05mm;
+Pad 15, -4.225, +3.05mm;
+Pad 16, -3.575, +3.05mm;
+Pad 17, -2.925, +3.05mm;
+Pad 18, -2.275, +3.05mm;
+Pad 19, -1.625, +3.05mm;
+Pad 20, -0.975, +3.05mm;
+Pad 21, -0.325, +3.05mm;
+Pad 22,  0.325, +3.05mm;
+Pad 23,  0.975, +3.05mm;
+Pad 24,  1.625, +3.05mm;
+Pad 25,  2.275, +3.05mm;
+Pad 26,  2.925, +3.05mm;
+Pad 27,  3.575, +3.05mm;
+Pad 28,  4.225, +3.05mm;
+Pad PWP, 
+#
+# Thermal Via
+- Drills 12mil, 0.0348mm
+- Anular 6mils, 0.1524mm
+- Via Dia 24mil, 0.6096mm
+- Via Radius 12mil, 0.3048mm
+#   
+# Ti field office Sacramento 
+# (916)-865-2352
