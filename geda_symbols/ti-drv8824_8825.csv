@@ -1,0 +1,34 @@
+#--------------------------------------------------------------------------------
+# Pin Definitions
+#--------------------------------------------------------------------------------
+# sort group, pin label, net, pin num, pin seq, pin type, pin style, pin location
+#--------------------------------------------------------------------------------
+,GND,,14,,line,normal,left
+,BVREF,,13,,line,normal,left
+,AVREF,,12,,line,normal,left
+,VMB,,11,,line,normal,left
+,BOUT1,,10,,line,normal,left
+,ISENB,,9,,line,normal,left
+,BOUT2,,8,,line,normal,left
+,AOUT2,,7,,line,normal,left
+,ISENA,,6,,line,normal,left
+,AOUT1,,5,,line,normal,left
+,VMA,,4,,line,normal,left
+,VCP,,3,,line,normal,left
+,CP2,,2,,line,normal,left
+,CP1,,1,,line,normal,left
+,V3P3OUT,,15,,line,normal,right
+,nRESET,,16,,line,normal,right
+,nSLEEP,,17,,line,normal,right
+,nFAULT,,18,,line,normal,right
+,DECAY,,19,,line,normal,right
+,DIR,,20,,line,normal,right
+,nENBL,,21,,line,normal,right
+,STEP,,22,,line,normal,right
+,NC,,23,,line,normal,right
+,MODE0,,24,,line,normal,right
+,MODE1,,25,,line,normal,right
+,MODE2,,26,,line,normal,right
+,nHOME,,27,,line,normal,right
+,GND,,28,,line,normal,right
+,GND,,29,,dot,pad,bottom
