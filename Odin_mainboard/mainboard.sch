@@ -1980,7 +1980,7 @@ C 32500 47000 1 0 0 switch-dip4-1.sym
 T 33900 48375 5 8 0 0 0 0 1
 device=SWITCH_DIP4
 T 32800 48550 5 10 1 1 0 0 1
-refdes=U9
+refdes=SW1
 }
 N 32500 49700 32500 48300 4
 N 30200 47300 32500 47300 4
@@ -2006,7 +2006,7 @@ netname=5V
 C 32300 36900 1 0 0 switch-dip4-1.sym
 {
 T 32600 38450 5 10 1 1 0 0 1
-refdes=U10
+refdes=SW2
 T 33700 38275 5 8 0 0 0 0 1
 device=SWITCH_DIP4
 }
@@ -2028,7 +2028,7 @@ netname=5V
 C 32500 27500 1 0 0 switch-dip4-1.sym
 {
 T 32800 29050 5 10 1 1 0 0 1
-refdes=U11
+refdes=SW3
 T 33900 28875 5 8 0 0 0 0 1
 device=SWITCH_DIP4
 }
@@ -2050,7 +2050,7 @@ netname=5V
 C 32400 17600 1 0 0 switch-dip4-1.sym
 {
 T 32700 19150 5 10 1 1 0 0 1
-refdes=U12
+refdes=SW4
 T 33800 18975 5 8 0 0 0 0 1
 device=SWITCH_DIP4
 }
@@ -2072,7 +2072,7 @@ netname=5V
 C 32300 8400 1 0 0 switch-dip4-1.sym
 {
 T 32600 9950 5 10 1 1 0 0 1
-refdes=U13
+refdes=SW5
 T 33700 9775 5 8 0 0 0 0 1
 device=SWITCH_DIP4
 }
