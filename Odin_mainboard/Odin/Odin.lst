@@ -1,0 +1,16 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 11.05.2014 15:17:35
+#Cmp ( order = Reference )
+| IC?        AT90USB-TQFP                    ; controller-micro_atmel_jd-TQFP64;             
+| R1         22                              ; ipc-7351-resistor-RESC3115X70N;             
+| R2         22                              ; ipc-7351-resistor-RESC3115X70N;             
+| USB0       USB-B-S                         ; con-usb-USB-B-SMT;             
+#End Cmp
+
+#Komponenten ( Sortiert nach Wert )
+| AT90USB-TQFP IC?       ; controller-micro_atmel_jd-TQFP64;             
+| 22           R1        ; ipc-7351-resistor-RESC3115X70N;             
+| 22           R2        ; ipc-7351-resistor-RESC3115X70N;             
+| USB-B-S      USB0      ; con-usb-USB-B-SMT;             
+#Ende der Komponente
+
+#Ende der Liste
